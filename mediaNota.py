@@ -16,7 +16,8 @@ print("\n")
 
 media = nota1 + nota2 /2 
 
-print("A média de notas do aluno {} é: {}".format(nome, media))
+print("A média de notas do aluno {} é: {:.2f}".format(nome, media))
+# :.2f = para limitar até no maximo dois numeros após o ponto
 
 print("\n")
 
